@@ -29,6 +29,7 @@ btn.addEventListener('click', function(){
     setTimeout(function(){
       all.style.transform = 'translateX(250%)';
       animation.style.transform = 'translateX(75vw)';
+      contact.style.opacity = '0';
     },1000)
     setTimeout(function() {
       let div = document.createElement('div');
